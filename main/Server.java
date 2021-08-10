@@ -1,29 +1,31 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.Scanner;
+package main;
+import java.io.*;
+import java.net.*;
+
 public class Server {
 	public static void main(String[] args) {
+        String pre = ">> ";
         try {
             ServerSocket serverSocket = new ServerSocket(0007);
-            System.out.println("\nWaiting for request....");
+            System.out.print("\n" + pre + "Waiting for request...\n" + pre);
             Socket socket = serverSocket.accept();
-            System.out.println(".\n****Connection Stablished***");
-            PrintStream printStream = new PrintStream(socket.getOutputStream());
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-            System.out.println(">>");
-            System.out.println("Enter First Number: ");
-            Scanner scanner = new Scanner(System.in);
-            int num1 = scanner.nextInt();
-            System.out.println("Enter First Number: ");
-            int num2 = scanner.nextInt();
-            printStream.print(num1+num2);
-            socket.close();
-            serverSocket.close();
+            System.out.println("\n" + pre + "[Connection Stablished Successfully]\n" + pre);
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            System.out.print(pre + "Status: Receiving\n");
+            String message = "";
+            while(true){
+                System.out.print(pre);
+                message = bufferedReader.readLine();
+                if(message.equalsIgnoreCase("exit")){
+                    System.out.println("\n" + pre + "Connection Lost!");
+                    socket.close();
+                    serverSocket.close();
+                    System.exit(1);
+                }
+                System.out.println(message);
+            }
         }		
-        catch (Exception exc) {			
+        catch (IOException exc) {			
             System.out.println("Not Found data for Socket: " + exc);
         }
     }
