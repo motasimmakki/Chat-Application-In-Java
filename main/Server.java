@@ -1,32 +1,75 @@
-package main;
-import java.io.*;
-import java.net.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Scanner;
 
 public class Server {
-	public static void main(String[] args) {
-        String pre = ">> ";
+    public static void main(String[] args){
+        final ServerSocket serverSocket;
+        final Socket clientSocket;
+        final BufferedReader in;
+        final PrintWriter out;
+        final Scanner sc=new Scanner(System.in);
+        final String pre = ">> ";
+
         try {
-            ServerSocket serverSocket = new ServerSocket(0007);
+            serverSocket = new ServerSocket(0007);
             System.out.print("\n" + pre + "Waiting for request...\n" + pre);
-            Socket socket = serverSocket.accept();
+            clientSocket = serverSocket.accept();
             System.out.println("\n" + pre + "[Connection Stablished Successfully]\n" + pre);
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            System.out.print(pre + "Status: Receiving\n");
-            String message = "";
-            while(true){
-                System.out.print(pre);
-                message = bufferedReader.readLine();
-                if(message.equalsIgnoreCase("exit")){
-                    System.out.println("\n" + pre + "Connection Lost!");
-                    socket.close();
-                    serverSocket.close();
+            out = new PrintWriter(clientSocket.getOutputStream());
+            in = new BufferedReader (new InputStreamReader(clientSocket.getInputStream()));
+
+            Thread sender= new Thread(new Runnable() {
+                String msg = ""; //variable that will contains the data writter by the user
+                @Override   // annotation to override the run method
+                public void run() {
+                    while(!msg.equalsIgnoreCase("exit")){
+                        System.out.print(pre);
+                        msg = sc.nextLine(); //reads data from user's keybord
+                        out.println(msg);    // write data stored in msg in the clientSocket
+                        out.flush();         // forces the sending of the data
+                        System.out.println(pre + "[Message Sent]");
+                    }
+                    System.out.println(pre);
+                    System.out.println(pre + "Successfully Disconnected!");
+                    // out.close();
+                    // clientSocket.close();
+                    // serverSocket.close();
                     System.exit(1);
                 }
-                System.out.println(message);
-            }
-        }		
-        catch (IOException exc) {			
-            System.out.println("Not Found data for Socket: " + exc);
+            });
+            sender.start();
+
+            Thread receive= new Thread(new Runnable() {
+                String msg = "";
+                @Override
+                public void run() {
+                    try {
+                        msg = in.readLine();
+                        while(!msg.equalsIgnoreCase("exit")){
+                            System.out.println("Client: " + msg);
+                            System.out.print(pre);
+                            msg = in.readLine();
+                        }
+                        System.out.println("\n" + pre + "Client Disconnected!");
+                        // out.close();
+                        // clientSocket.close();
+                        // serverSocket.close();
+                        System.exit(1);
+                    }
+                    catch(IOException exc) {
+                        System.out.println("Opps! Not Found data for Socket: " + exc);
+                    }
+                }
+            });
+            receive.start();
         }
+        catch(Exception exc) {
+            System.out.println("Opps! Could Not Able To Stablish The Connection: " + exc);
+        }   
     }
 }
