@@ -1,7 +1,7 @@
-package main;
+package src;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-class Main{
+class Test{
     public static void main(String[] args) {
         try {
             InetAddress ip = InetAddress.getByName("MOTASIM-PC");

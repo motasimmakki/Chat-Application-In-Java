@@ -1,3 +1,4 @@
+package src;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -28,13 +29,11 @@ public class Client {
                         msg = sc.nextLine();
                         out.println(msg);
                         out.flush();
-                        System.out.println(pre + "[Message Sent]");
+						if(!msg.equalsIgnoreCase("exit"))
+                        	System.out.println(pre + "[Message Sent]");
                     }
                     System.out.println(pre);
                     System.out.println(pre + "Successfully Disconnected!");
-                    // out.close();
-                    // clientSocket.close();
-                    // serverSocket.close();
                     System.exit(1);
                 }
             });
@@ -51,8 +50,6 @@ public class Client {
                             msg = in.readLine();
                         }
                         System.out.print("\n" + pre + "Server Disconnected!");
-                        // out.close();
-                        // clientSocket.close();
                         System.exit(1);
                     }
                     catch(IOException exc) {

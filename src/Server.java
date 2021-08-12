@@ -1,3 +1,4 @@
+package src;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -24,21 +25,19 @@ public class Server {
             in = new BufferedReader (new InputStreamReader(clientSocket.getInputStream()));
 
             Thread sender= new Thread(new Runnable() {
-                String msg = ""; //variable that will contains the data writter by the user
-                @Override   // annotation to override the run method
+                String msg = ""; // variable that will contains the data writter by the user
+                @Override        // annotation to override the run method
                 public void run() {
                     while(!msg.equalsIgnoreCase("exit")){
                         System.out.print(pre);
-                        msg = sc.nextLine(); //reads data from user's keybord
+                        msg = sc.nextLine(); // reads data from user's keybord
                         out.println(msg);    // write data stored in msg in the clientSocket
                         out.flush();         // forces the sending of the data
-                        System.out.println(pre + "[Message Sent]");
+                        if(!msg.equalsIgnoreCase("exit"))
+                            System.out.println(pre + "[Message Sent]");
                     }
                     System.out.println(pre);
                     System.out.println(pre + "Successfully Disconnected!");
-                    // out.close();
-                    // clientSocket.close();
-                    // serverSocket.close();
                     System.exit(1);
                 }
             });
@@ -56,9 +55,6 @@ public class Server {
                             msg = in.readLine();
                         }
                         System.out.println("\n" + pre + "Client Disconnected!");
-                        // out.close();
-                        // clientSocket.close();
-                        // serverSocket.close();
                         System.exit(1);
                     }
                     catch(IOException exc) {
