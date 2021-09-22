@@ -13,7 +13,7 @@ public class Server {
         final Socket clientSocket;
         final BufferedReader in;
         final PrintWriter out;
-        final Scanner sc=new Scanner(System.in);
+        final Scanner sc = new Scanner(System.in);
         final String pre = ">> ";
 
         try {
