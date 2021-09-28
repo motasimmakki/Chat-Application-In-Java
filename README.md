@@ -1,4 +1,4 @@
-# Image-Puzzle-Using-Java
+# Chat Application In Java
 # <h1>Introduction :</h1>
 <ul>
   <li>
