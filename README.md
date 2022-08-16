@@ -18,9 +18,9 @@
 
 # <h1>Running App :</h1>
 
-|Server Side|Client Side|
-|------|------|
-|<img src="https://github.com/motasimmakki/Chat-Application-In-Java/blob/main/Image%20resources/Server%20class.png" />|<img src="https://github.com/motasimmakki/Chat-Application-In-Java/blob/main/Image%20resources/Client%20class.png"/>|
+|Server Side|Client Side|Log File|
+|------|------|------|
+|<img src="https://github.com/motasimmakki/Chat-Application-In-Java/blob/main/Image%20resources/Server%20class.png" />|<img src="https://github.com/motasimmakki/Chat-Application-In-Java/blob/main/Image%20resources/Client%20class.png"/>|<img src="https://github.com/motasimmakki/Chat-Application-In-Java/blob/main/Image%20resources/Log%20file.png"/>|
 
   
 <h6 align='center'>
