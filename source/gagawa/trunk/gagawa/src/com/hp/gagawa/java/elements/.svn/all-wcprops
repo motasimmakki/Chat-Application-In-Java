@@ -1,0 +1,533 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements
+END
+Br.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Br.java
+END
+Script.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Script.java
+END
+Del.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Del.java
+END
+Font.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Font.java
+END
+Frameset.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Frameset.java
+END
+Object.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Object.java
+END
+Dfn.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Dfn.java
+END
+Acronym.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Acronym.java
+END
+Hr.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Hr.java
+END
+Base.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Base.java
+END
+Code.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Code.java
+END
+Ol.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Ol.java
+END
+H4.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/H4.java
+END
+Textarea.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Textarea.java
+END
+Ul.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Ul.java
+END
+Title.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Title.java
+END
+Tr.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Tr.java
+END
+Var.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Var.java
+END
+Ins.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Ins.java
+END
+Link.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Link.java
+END
+Body.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Body.java
+END
+Big.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Big.java
+END
+Em.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Em.java
+END
+S.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/S.java
+END
+Iframe.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Iframe.java
+END
+Form.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Form.java
+END
+Html.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Html.java
+END
+Doctype.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Doctype.java
+END
+Small.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Small.java
+END
+H1.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/H1.java
+END
+Option.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Option.java
+END
+Button.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Button.java
+END
+H5.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/H5.java
+END
+Col.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Col.java
+END
+Tbody.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Tbody.java
+END
+Dd.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Dd.java
+END
+Table.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Table.java
+END
+Caption.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Caption.java
+END
+Dl.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Dl.java
+END
+P.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/P.java
+END
+Noscript.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Noscript.java
+END
+Abbr.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Abbr.java
+END
+Dt.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Dt.java
+END
+Td.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Td.java
+END
+Sup.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Sup.java
+END
+H2.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/H2.java
+END
+Th.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Th.java
+END
+Strong.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Strong.java
+END
+Img.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Img.java
+END
+H6.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/H6.java
+END
+Dir.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Dir.java
+END
+Label.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Label.java
+END
+A.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/A.java
+END
+Div.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Div.java
+END
+Text.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Text.java
+END
+Cite.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Cite.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Address.java
+END
+Meta.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Meta.java
+END
+Tt.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Tt.java
+END
+I.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/I.java
+END
+Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Frame.java
+END
+Tfoot.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Tfoot.java
+END
+Input.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Input.java
+END
+Kbd.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Kbd.java
+END
+Style.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Style.java
+END
+Q.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Q.java
+END
+Head.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Head.java
+END
+Span.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Span.java
+END
+Comment.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Comment.java
+END
+Bdo.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Bdo.java
+END
+U.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/U.java
+END
+Li.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Li.java
+END
+Area.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Area.java
+END
+Blockquote.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Blockquote.java
+END
+Noframes.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Noframes.java
+END
+H3.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/H3.java
+END
+Map.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Map.java
+END
+Optgroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Optgroup.java
+END
+Select.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Select.java
+END
+B.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/B.java
+END
+Thead.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Thead.java
+END
+Pre.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Pre.java
+END
+Sub.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Sub.java
+END
+Colgroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Colgroup.java
+END
+Fieldset.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Fieldset.java
+END
+Samp.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Samp.java
+END
+Param.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/46/trunk/gagawa/src/com/hp/gagawa/java/elements/Param.java
+END
+Strike.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/trunk/gagawa/src/com/hp/gagawa/java/elements/Strike.java
+END

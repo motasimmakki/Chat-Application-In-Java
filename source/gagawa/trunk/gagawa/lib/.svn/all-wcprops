@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/20/trunk/gagawa/lib
+END
+xerces.jar
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3/trunk/gagawa/lib/xerces.jar
+END
+junit-4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/gagawa/lib/junit-4.1.jar
+END
+jdom-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/20/trunk/gagawa/lib/jdom-1.1.jar
+END

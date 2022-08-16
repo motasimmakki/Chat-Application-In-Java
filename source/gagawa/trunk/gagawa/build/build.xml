@@ -1,0 +1,164 @@
+<project name="gagawa" default="build" basedir=".">
+
+	<property file="build-custom.properties" />
+	<property file="build.properties" />
+	
+	<property name="debug" value="off" />
+	<property name="source" value="1.6" />
+	
+	<!-- absolute directories -->
+	<property name="maindir" value=".." />
+	<property name="distdir" value="dist" />
+	<property name="destdir" value="classes" />
+	<property name="testsdir" value="tests" />
+	
+	<!-- computed paths -->
+	<property name="libdir" value="${maindir}/lib" />
+	<property name="docdir" value="${maindir}/doc" />
+	<property name="authors" value="${maindir}/AUTHORS" />
+	<property name="license" value="${maindir}/LICENSE" />
+	
+	<!-- included libraries -->
+	<property name="junitjar" value="${libdir}/junit-4.1.jar" />
+	<property name="xercesjar" value="${libdir}/xerces.jar" />
+	
+	<!-- ================================= 
+	      target: init
+	     ================================= -->
+	<target name="init" description="creates the necessary directories">
+		<mkdir dir="${distdir}"/>
+		<mkdir dir="${distdir}/${destdir}"/>
+		<mkdir dir="${testsdir}"/>
+	</target>
+	
+	<!-- ================================= 
+	      target: clean
+	     ================================= -->
+	<target name="clean" description="removes all build directories and files">
+		<delete dir="${distdir}" />
+		<delete dir="${distdir}/${destdir}" />
+		<delete dir="${testsdir}"/>
+		<delete dir="${docdir}/javadoc"/>
+	</target>
+	
+	
+	<!-- ================================= 
+	      target: build
+	     ================================= -->
+	<target name="build" description="performs a clean test and then a clean build">
+		<antcall target="clean" />
+		<antcall target="test" />
+		<antcall target="clean" />
+		<antcall target="package" />
+	</target>
+	
+	<!-- ================================= 
+	      target: all
+	     ================================= -->
+	<target name="all" description="builds and runs everything, probably more than most people want">
+		<antcall target="build" />
+		<antcall target="test" />
+		<antcall target="tests.report" />
+		<antcall target="javadoc" />
+	</target>
+	
+	<!-- ================================= 
+	      target: build
+	     ================================= -->
+	<target name="compile" description="compiles the Gagawa HTML generator" depends="init">
+		<javac encoding="${source.encoding}" srcdir="${maindir}/src"
+			   destdir="${distdir}/${destdir}" debug="${debug}"
+			   source="${source}">
+			<compilerarg value="-Xlint" />
+		</javac>
+		<fileset>
+			<exclude name="**/*.php" />
+		</fileset>
+	</target>
+	
+	<!-- ================================= 
+	      target: package
+	     ================================= -->
+	<target name="package" description="packages the Gagawa HTML generator jar" depends="compile">
+		<jar destfile="${distdir}/gagawa-${gagawa.version}.jar">
+			<fileset file="${authors}" />
+			<fileset file="${license}" />
+			<fileset dir="${distdir}/${destdir}">
+				<include name="**/*.class" />
+				<exclude name="**/examples/*.class" />
+			</fileset>
+		</jar>
+	</target>
+	
+	<!-- ================================= 
+	      target: compile.test
+	     ================================= -->
+	<target name="compile.test" depends="compile">
+		<javac encoding="${source.encoding}" srcdir="${maindir}/test"
+			destdir="${distdir}/${destdir}" 
+			debug="${debug}" includeAntRuntime="no"
+			source="${source}" classpath="${junitjar}">
+				<compilerarg value="-Xlint" />
+		</javac>
+	</target>
+	
+	<!-- ================================= 
+	      target: test
+	     ================================= -->
+	<target name="test" description="runs all junit tests in the test package" depends="compile.test">
+		<junit fork="yes" haltonfailure="true">
+			<classpath>
+				<pathelement location="${junitjar}" />
+				<pathelement location="${distdir}/${destdir}" />
+			</classpath>
+			<formatter type="xml" />
+			<batchtest todir="${testsdir}">
+				<fileset dir="${maindir}/test">
+					<include name="**/*Test.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+	
+	<!-- ================================= 
+          target: test.report
+         ================================= -->
+	<target name="tests.report" description="generates test report">
+		<mkdir dir="${testsdir}/report" />
+		<junitreport todir="${testsdir}">
+			<fileset dir="${testsdir}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report todir="${testsdir}\report" />
+		</junitreport>
+		<echo message="Report available at build/${testsdir}/report/index.html" />
+	</target>
+	
+	<!-- ================================= 
+	      target: compile.examples
+	     ================================= -->
+	<target name="compile.examples" depends="compile">
+		<javac encoding="${source.encoding}" srcdir="${maindir}/examples"
+			destdir="${distdir}/${destdir}" 
+			debug="${debug}" includeAntRuntime="no"
+			source="${source}" classpath="${junitjar}">
+				<compilerarg value="-Xlint" />
+			</javac>
+	</target>
+	
+	<!-- ================================= 
+          target: javadoc
+         ================================= -->
+	<target name="javadoc" description="builds the Gagawa javadoc">
+		<mkdir dir="${docdir}/javadoc" />
+		<javadoc destdir="${docdir}/javadoc"
+			     access="package" version="true" use="true"
+		         author="true" encoding="${source.encoding}">
+			<fileset dir="${maindir}/src" includes="**/*.java" />
+			<classpath>
+				<pathelement location="${xercesjar}"/>
+			</classpath>
+		</javadoc>
+	</target>
+	
+</project>

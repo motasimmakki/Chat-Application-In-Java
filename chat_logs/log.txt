@@ -1,0 +1,18 @@
+2022/08/16 10:54:12
+
+[Client]:	Hey, How you doin?
+[Server]:	I'm Fine, What about you fella?
+[Client]:	Nice 
+[Client]:	Free today?
+[Server]:	Ohhh yeah!
+[Client]:	Wanna catchup for Birtday party?
+[Server]:	Well, Okay
+[Client]:	See you there.
+[Server]:	great!
+2022/08/16 10:56:50
+
+[Client]:	hey listen...
+[Client]:	Plan is cancelled!
+[Server]:	Ohh great
+[Server]:	I was thinkinh about the same.
+[Client]:	okay see you after words

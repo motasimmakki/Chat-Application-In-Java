@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/48/trunk/gagawa/src/com/hp/gagawa/php/nodes
+END
+Attribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/48/trunk/gagawa/src/com/hp/gagawa/php/nodes/Attribute.php
+END
+Node.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/48/trunk/gagawa/src/com/hp/gagawa/php/nodes/Node.php
+END
+FertileNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/48/trunk/gagawa/src/com/hp/gagawa/php/nodes/FertileNode.php
+END

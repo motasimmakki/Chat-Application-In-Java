@@ -1,0 +1,107 @@
+## This is the Gagawa tag definition file.  The contents of this
+## file are converted into tags.xml with TagBuilder.
+##
+## Note that you can assign special needs to a tag or attribute
+## using the special needs notation []:
+##
+##   [needName=needValue]tag,attribute
+##
+## For example, to indicate that the <br> tag cannot have any children:
+##   [allowsKids=false]br
+##
+## Or, to indicate that the action attribute of the <form> tag is required:
+##   [required=true]action
+##
+## You can include multiple special needs by separating them with a comma:
+##   [need1=value1,need2=value2]tag
+##
+## Any lines in this file that start with "#" are treated as comments,
+## and therefore, ignored.
+##
+!--
+[allowsKids=false]!DOCTYPE
+a charset coords href hreflang name rel rev shape target type id class title style dir lang xml:lang tabindex accesskey
+abbr id class title style dir lang xml:lang
+acronym id class title style dir lang xml:lang
+address id class title style dir lang xml:lang
+area [required=true]alt coords href nohref shape target id class title style dir lang xml:lang tabindex accesskey
+b id class title style dir lang
+base [required=true]href target
+bdo [required=true]dir id class title style lang xml:lang
+big id class title style dir lang
+blockquote cite id class title style dir lang xml:lang
+body alink background bgcolor link text vlink id class title style dir lang xml:lang
+[allowsKids=false]br id class title style
+button disabled name type value id class title style dir lang xml:lang accesskey tabindex
+caption id class title style dir lang xml:lang
+cite id class title style dir lang xml:lang
+code id class title style dir lang xml:lang
+[allowsKids=false]col align char charoff span valign width id class title style dir lang xml:lang
+colgroup align char charoff span valign width id class title style dir lang xml:lang
+dd id class title style dir lang xml:lang
+del cite datetime id class title style dir lang xml:lang
+dfn id class title style dir lang xml:lang
+dir compact id class title style dir lang xml:lang
+div align id class title style dir lang xml:lang
+dl id class title style dir lang xml:lang
+dt id class title style dir lang xml:lang
+em id class title style dir lang xml:lang
+fieldset id class title style dir lang xml:lang
+font color face size id class title style dir lang xml:lang
+form [required=true]action accept accept-charset enctype method name target id class title style dir lang xml:lang
+frame frameborder longdesc marginheight marginwidth name noresize scrolling src id class title style
+frameset cols rows id class title style
+head profile dir lang xml:lang
+h1 align id class title style dir lang xml:lang
+h2 align id class title style dir lang xml:lang
+h3 align id class title style dir lang xml:lang
+h4 align id class title style dir lang xml:lang
+h5 align id class title style dir lang xml:lang
+h6 align id class title style dir lang xml:lang
+[allowsKids=false]hr align noshade size width id class title style dir lang xml:lang
+html [required=true]xmlns dir lang xml:lang
+i id class title style dir lang
+[allowsKids=false]iframe align frameborder height longdesc marginheight marginwidth name scrolling src width id class title style
+[allowsKids=false]img [required=true]alt [required=true]src align border height hspace ismap longdesc usemap vspace width id class title style lang xml:lang
+[allowsKids=false]input accept align alt checked disabled maxlength name readonly size src type value id class title style dir lang xml:lang
+ins cite datetime id class title style dir lang xml:lang
+kbd id class title style dir lang xml:lang
+label for id class title style dir lang xml:lang
+li type value id class title style dir lang xml:lang
+link charset href hreflang media rel rev target type id class title style dir lang xml:lang
+map [required=true]id name class title style dir lang xml:lang
+meta [required=true]content http-equiv name scheme dir lang xml:lang
+noframes id class title style dir lang xml:lang
+noscript id class title style dir lang xml:lang
+object align archive border classid codebase codetype data declare height hspace name standby type usemap vspace width id class title style dir lang xml:lang
+ol compact start type id class title style dir lang xml:lang
+optgroup [required=true]label disabled id class title style dir lang xml:lang
+option disabled label selected value id class title style dir lang xml:lang tabindex
+p align id class title style dir lang xml:lang
+[allowsKids=false]param [required=true]name type value valuetype id
+pre width id class title style dir lang xml:lang xmlspace
+q cite id class title style dir lang xml:lang
+s id class title style dir lang xml:lang
+samp id class title style dir lang xml:lang
+script [required=true]type charset defer language src xmlspace
+select disabled multiple name size id class title style dir lang xml:lang accesskey tabindex
+small id class title style dir lang
+span id class title style dir lang xml:lang
+strike id class title style dir lang xml:lang
+strong d class title style dir lang xml:lang
+style [required=true]type media title dir lang xmlspace
+sub id class title style dir lang xml:lang
+sup id class title style dir lang xml:lang
+table align bgcolor border cellpadding cellspacing frame rules summary width id class title style dir lang xml:lang
+tbody align char charoff valign id class title style dir lang xml:lang
+td abbr align axis bgcolor char charoff colspan headers height nowrap rowspan scope valign width id class title style dir lang xml:lang
+textarea [required=true]cols [required=true]rows disabled name readonly id class title style dir lang xml:lang tabindex accesskey
+tfoot align char charoff valign id class title style dir lang xml:lang
+th abbr align axis bgcolor char charoff colspan headers height nowrap rowspan scope valign width id class title style dir lang xml:lang
+thead align char charoff valign id class title style dir lang xml:lang
+title id class dir lang style xml:lang
+tr align bgcolor char charoff valign id class title style dir lang xml:lang
+tt id class title style dir lang
+u id class title style dir lang xml:lang
+ul compact type id class title style dir lang xml:lang
+var id class title style dir lang xml:lang
